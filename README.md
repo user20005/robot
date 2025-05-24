@@ -1,4 +1,4 @@
-# 🤖 Robot ESP32 – Contrôle WiFi
+# 🤖 Robot 2WD ESP32 – Contrôle WiFi
 
 Projet de robot connecté réalisé dans le cadre de la SAE à l'IUT de Villetaneuse – BUT GEII.
 
