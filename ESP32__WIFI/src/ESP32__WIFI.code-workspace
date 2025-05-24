@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"path": "../../../../sae robot"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "sae robot"
+	}
+}
