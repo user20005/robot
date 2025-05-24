@@ -1,7 +1,7 @@
 
 ////////////// WEBSOCKET ///////////////////
 // Connexion WebSocket vers l’ESP32
-let socket = new WebSocket("ws://192.168.4.1:81"); // IP de l'ESP32
+//let socket = new WebSocket("ws://192.168.4.1:81"); // IP de l'ESP32
 
 // Lorsque la connexion WebSocket est établie
 socket.onopen = function () {
