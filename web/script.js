@@ -112,15 +112,13 @@ demo_btn.addEventListener("click", () => toggle(demo_btn));
 
 // Démarrage de l'ESP32 avec affichage du bloc uniquement si WebSocket actif
 function startESP32() {
-  if (socket.readyState === WebSocket.OPEN) {
-  }
+ 
   onesp32.classList.remove("hidden");
 }
 
 // Arrêt de l'ESP32 avec masquage du bloc
 function stopESP32() {
-  if (socket.readyState === WebSocket.OPEN) {
-  }
+  
   onesp32.classList.add("hidden");
 }
 
