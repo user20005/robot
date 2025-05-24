@@ -2,9 +2,15 @@
 
 Projet de robot connecté réalisé dans le cadre de la SAE à l'IUT de Villetaneuse – BUT GEII.
 
-Ce robot est contrôlé à distance via un site web hébergé par l'ESP32, permettant le pilotage des moteurs et la visualisation de l'environnement grâce à un capteur ultrason.
+
+Ce robot est contrôlé à distance via un site web hébergé en local sur le pc, permettant le pilotage des moteurs et la visualisation de l'environnement grâce à un capteur ultrason.
 
 ---
+
+
+--- INFO 
+Le projet SAE reposait initialement sur un contrôle infrarouge déjà fonctionnel avec l’ensemble des codes. Mon avance sur le développement m’a permis de modifier et d’améliorer ce projet en intégrant un ESP32, permettant un contrôle à distance via WiFi et une interface web.
+
 
 ## 🖼️ Aperçu du robot
 ![image](https://github.com/user-attachments/assets/e9dd20d9-d72d-47b8-8b69-963dcef16dba)
@@ -13,13 +19,13 @@ Ce robot est contrôlé à distance via un site web hébergé par l'ESP32, perme
 
 ## ⚙️ Fonctionnalités principales
 
-- 🔌 Connexion en WiFi mode point d’accès)
+- 🔌 Connexion en WiFi mode point d’accès
 - 🌐 Interface web intégrée : aucun logiciel externe requis
 - 🎮 Contrôle en temps réel des moteurs via clavier depuis  le site
 - 📡 Capteur ultrason monté sur un servo : détection des obstacles
 - 📈 Visualisation type radar sur le site (WebSocket)
 - 💡 Contrôle du servomoteur, caméra et autres périphériques depuis le site
-- 📶 Prévu pour communication **NRF24L01** avec un Arduino
+- 📶 Prévu pour communication radio **NRF24L01** avec un Arduino
 
 ---
 
