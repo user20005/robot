@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+
+.font-orbitron {
+    font-family: 'Orbitron', sans-serif;
+}
+
+.share {
+    font-family: 'Share Tech Mono', monospace;
+}
+
+canvas {
+    display: block;
+    margin: auto;
+    background: rgb(103, 96, 96);
+}
+
+@keyframes marquee {
+    0% {
+        transform: translateX(200%)
+    }
+
+    100% {
+        transform: translateX(-100%)
+    }
+}
+
+.animate-marquee {
+    display: inline-block;
+    animation: marquee 8.5s linear infinite;
+}
+
+@keyframes bgMove {
+    0% {
+        background-position: 0 0;
+    }
+
+    100% {
+        background-position: 100vw 0;
+    }
+}
+
+.animate-bg {
+    background-size: 200% 200%;
+    animation: bgMove 15s linear infinite;
+    opacity: 20;
+}
+
+/* From Uiverse.io by vinodjangid07 */
+#checkbox,
+#checkbox1,
+#checkbox5 {
+    display: none;
+}
+
+.switch,
+.switch1,
+.switch5 {
+    position: relative;
+    width: fit-content;
+    padding: 16px 16px;
+    margin: auto;
+    background-color: rgb(46, 46, 46);
+    border-radius: 50px;
+    z-index: 1;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    color: white;
+    font-size: 0.9em;
+    font-weight: 600;
+    transition: all 0.3s;
+}
+
+.switch svg path,.switch1 svg path,.switch5 svg path {
+    fill: white;
+}
+
+
+
+#checkbox:checked+.switch {
+    background-color: rgba(0, 13, 255, 0.421);
+    box-shadow: 0px 0px 40px rgba(0, 123, 255, 0.438);
+}
+
+#checkbox1:checked+.switch1 {
+    background-color: rgba(0, 255, 21, 0.421);
+    box-shadow: 0px 0px 40px rgba(0, 255, 115, 0.438);
+}
+
+#checkbox5:checked+.switch5 {
+    background-color: rgba(255, 51, 0, 0.421);
+    box-shadow: 0px 0px 40px rgba(255, 0, 0, 0.438);
+}
+
+*{
+    color: rgb(230, 230, 230);
+}
