@@ -31,10 +31,10 @@ Le projet SAE reposait initialement sur un contrôle infrarouge déjà fonctionn
 
 ## 🧰 Matériel utilisé
 
-- 1x ESP32 DevKit
+- 1x ESP32 DevKit V1
 - 1x Servo moteur SG90
 - 1x Capteur ultrason HC-SR04
-- 1x L298N ou module moteur double
+- 1x L298N
 - 2x Moteurs DC avec roues
 - 1x Châssis 2 roues + support batterie
 - (Optionnel) 1x ESP32-CAM
